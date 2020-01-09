@@ -1,0 +1,13 @@
+#!/usr/bin/env node
+
+const app = require('../server');
+const http = require('http');
+
+const port = 3000;
+const server = http.createServer(app);
+
+server.listen(port);
+server.on('listening', () => {
+  const addr = server.address();
+  console.log(`Server running at http://localhost:${addr.port}/`);
+});

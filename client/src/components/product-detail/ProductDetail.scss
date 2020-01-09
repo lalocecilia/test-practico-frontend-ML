@@ -1,0 +1,73 @@
+.product-detail {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  .container-detail {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10%;
+    .detail {
+      background-color: #FFFFFF;
+      .row-1 {
+        display: flex;
+        padding: 32px;
+        .container-image {
+          display: flex;
+          .image {
+            width: 680px;
+            max-height: 680px;
+            border-radius: 4px;
+            object-fit: contain;
+          }
+        }
+        .container-text {
+          width: 100%;
+          .text {
+            float: right;
+            width: 75%;
+            .condition {
+              font-size: 14px;
+              color: #666666;
+            }
+            .title {
+              font-size: 24px;
+              margin: 16px 0 0 0;
+              color: #333333;
+            }
+            .price {
+              font-size: 46px;
+              margin: 32px 0;
+              .decimals {
+                position: absolute;
+                line-height: 1.8;
+                font-size: 20px;
+              }
+            }
+            .buy {
+              width: 100%;
+              background-color: #3483FA;
+              color: #FFFFFF;
+              padding: 12px 24px;
+              border-radius: 4px;
+              outline: none;
+              cursor: pointer;
+              font-size: 18px;
+            }
+          }
+        }
+      }
+      .row-2 {
+        padding: 32px;
+        width: 680px;
+        .title-descriptions {
+          font-size: 28px;
+          margin: 0;
+        }
+        .descriptions {
+          font-size: 16px;
+          margin-top: 32px;
+          word-break: break-all
+        }
+      }
+    }
+  }
+}

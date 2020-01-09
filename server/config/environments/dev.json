@@ -1,0 +1,11 @@
+{
+  "static-context": "/app/statics",
+  "rest": {
+    "timeout": 60000
+  },
+  "ml": {
+    "rest": {
+      "host": "https://api.mercadolibre.com"
+    }
+  }
+}

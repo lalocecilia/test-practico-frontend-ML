@@ -1,0 +1,57 @@
+{
+  "name": "test-practico-frontend-ml",
+  "version": "1.0.0",
+  "description": "Test práctico para aspirantes al área de front-end de Mercado Libre.",
+  "private": true,
+  "engines": {
+    "node": ">=12"
+  },
+  "scripts": {
+    "start": "node ./bin/www",
+    "build:dev": "webpack --config ./webpack.config.js -d --mode development --watch",
+    "build:app": "webpack --config ./webpack.config.js -p --mode production",
+    "test": "jest"
+  },
+  "author": "Eduardo Cecilia",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lalocecilia/test-practico-frontend-ML"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^17.1.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.17.0",
+    "eslint-plugin-import": "^2.19.1"
+  },
+  "dependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "@babel/preset-react": "^7.7.4",
+    "@babel/plugin-proposal-class-properties": "^7.7.4",
+    "@babel/plugin-transform-runtime": "^7.7.6",
+    "@babel/plugin-syntax-dynamic-import": "^7.7.4",
+    "babel-loader": "^8.0.6",
+    "babel-jest": "^24.9.0",
+    "jest": "^24.9.0",
+    "webpack": "^4.41.4",
+    "webpack-cli": "^3.3.10",
+    "mini-css-extract-plugin": "^0.9.0",
+    "css-loader": "^3.4.0",
+    "sass-loader": "^8.0.0",
+    "node-sass": "^4.13.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-router-dom": "^5.1.2",
+    "react-router": "^5.1.2",
+    "prop-types": "^15.7.2",
+    "@testing-library/react": "^9.4.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "jest-fetch-mock": "^3.0.1",
+    "history": "^4.10.1"
+  }
+}
